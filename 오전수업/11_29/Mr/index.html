@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PT</title>
+    <style>
+      ul.first {
+        display: flex;
+        position: fixed;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 0;
+      }
+      .container {
+        width: 200px;
+        height: 100vh;
+      }
+      .first.container {
+        background-color: red;
+      }
+      .second.container {
+        background-color: blue;
+      }
+      .third.container {
+        background-color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <ul>
+        <li>
+          <a href="#1">첫번째</a>
+          <a href="#2">두번째</a>
+          <a href="#3">세번째</a>
+          <h2>
+            <a href="https://www.naver.com/" target="_self">Naver</a>
+            <a href="https://www.naver.com/" target="top">Naver</a>
+          </h2>
+        </li>
+      </ul>
+    </header>
+    <div class="first container" id="1">일</div>
+    <div class="second container" id="2">이</div>
+    <div class="third container" id="3">삼</div>
+  </body>
+</html>
