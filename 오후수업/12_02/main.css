@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.warp {
+  width: 1200px;
+  border: 2px solid black;
+  margin: 0 auto; /*margin만 가능 (너비 필수)*/
+}
+.header {
+  width: 100%;
+  border: 2px solid red;
+  /* height: 200px; */
+  /* vertical-align: middlle; */
+  padding: 50px 0;
+  text-align: center;
+}
+.menu {
+  font-size: 20px;
+  padding: 0 20px;
+}
+.menu:hover {
+  /*마우스 커서가 위에 올라오면 동작*/
+  cursor: pointer;
+  color: red;
+}
+.hot {
+  list-style-type: none;
+  font-size: 25px;
+  line-height: 50px;
+}
+.main img {
+  width: 100%;
+}
+.main {
+  padding: 50px;
+}
+.hot {
+  padding: 0;
+}
+.order {
+  padding: 0;
+  list-style-type: none;
+}
+.footer {
+  background: black;
+  padding: 100px;
+}
+.addr {
+  color: white;
+  font-size: 30px;
+}
+.make {
+  color: yellow;
+  font-size: 20px;
+  text-align: right;
+}
