@@ -9,7 +9,7 @@ header {
 }
 header,
 ul,
-.warp {
+.wrap {
   display: flex;
   align-items: center;
   column-gap: 10px;
@@ -20,7 +20,7 @@ header button {
   background: transparent;
   cursor: pointer;
 }
-header .warp {
+header > .wrap {
   justify-content: space-between;
   width: 100%;
 }
