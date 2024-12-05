@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: rgb(25, 0, 117);
+  height: 50px;
+}
+header,
+ul,
+.warp {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+header button {
+  color: whitesmoke;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+header .warp {
+  justify-content: space-between;
+  width: 100%;
+}
+header img {
+  width: 20px;
+  height: 20px;
+}
+ul {
+  list-style-type: none;
+}

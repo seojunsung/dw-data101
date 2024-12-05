@@ -1,0 +1,21 @@
+footer {
+}
+footer ul {
+  display: flex;
+  column-gap: 10px;
+  margin: 0;
+  padding: 0;
+}
+footer ul > li {
+  margin-bottom: 15px;
+}
+footer a {
+  color: whitesmoke;
+  padding: 5px;
+}
+footer div.f2 a:hover {
+  color: red;
+}
+div.f4 p {
+  font-size: 15px;
+}

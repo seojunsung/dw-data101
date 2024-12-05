@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.warp {
+  width: 1000px;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+.header {
+  margin-bottom: 20px;
+  width: 100%;
+  text-align: left;
+  font-size: 20px;
+  border: 12px solid blue;
+  background-color: blue;
+  color: white;
+  border-radius: 8px;
+}
+.head {
+  margin: 0 20px;
+  padding: 10px;
+}
+.head:hover {
+  cursor: pointer;
+  border: 10px solid white;
+}
+.main {
+  margin-top: 15px;
+  line-height: 50px;
+  margin-left: 40px;
+}
+.LC {
+  width: 400px;
+  border: 1px solid tomato;
+  margin: 10px 0;
+  background-color: tomato;
+  border-radius: 8px;
+}
+.footer {
+  width: 400px;
+  margin-left: 559px;
+}
+.pic2 {
+  margin: 8px 0;
+}
+.writing {
+  padding: 3px 0;
+  font-size: 12px;
+  line-height: 22px;
+}
