@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: rgb(2, 0, 137);
+}
+header button {
+  color: whitesmoke;
+}
+.text {
+  font-size: 20px;
+  font-weight: 900;
+}
+header .flex {
+  justify-content: space-between;
+}
+header .flex {
+  border: 1px solid red;
+}
+button.icon {
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border: none;
+}
+button.icon img {
+  width: 20px;
+  height: 20px;
+}
+button {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  height: 60px;
+  padding: 0 10px;
+}
+.flex {
+  display: flex;
+  width: 100%;
+}
+ul {
+  list-style-type: none;
+}

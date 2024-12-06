@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 600px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+header {
+  /* border: 1px solid rgb(255, 0, 0); */
+}
+h1 {
+  text-align: center;
+}
+.f {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid rgb(0, 13, 255); */
+}
+/* .e {
+  display: flex;
+  justify-content: space-between;
+} */
+ul {
+  list-style-type: none;
+  /* border: 1px solid rgb(195, 14, 165); */
+}
+li {
+  /* border: 1px solid rgb(0, 255, 136); */
+}
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+button img {
+  width: 30px;
+  /* border: 1px solid red; */
+}
+fei
